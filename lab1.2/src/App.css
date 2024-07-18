@@ -1,0 +1,42 @@
+.wrapper{
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Segoe UI';
+}
+header{
+  background-color: #7600b6;
+  height: 20vmin;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  color: rgb(255, 255, 255);
+}
+.body{
+  margin-top: 2vmin;
+  display: flex;
+  justify-content: center;
+}
+table{
+  width: 95%;
+}
+thead{
+  background-color: #7000b6;
+  height: 5vmin;
+  color: rgb(255, 255, 255);
+}
+tbody tr{
+  height: 5vmin;
+}
+tbody tr td{
+  padding: 0 2vmin;
+  font-weight: 400;
+}
+tbody tr:nth-of-type(odd){
+  background-color: #e6caf8;
+}
+tbody tr:nth-of-type(even){
+  background-color: #cc90ef;
+}
