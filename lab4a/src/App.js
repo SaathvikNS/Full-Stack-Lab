@@ -12,7 +12,7 @@ const App = () => {
     const email = emailRef.current.value;
     const subscribe = subscribeRef.current.checked;
     
-    alert(`Name: ${name}\nEmail: ${email}\nSubscribed: ${subscribe}`);
+    alert(`Name: ${name}\nEmail: ${email}\n${subscribe?"Subscribed to Newsletter":"Not Subscribed to Newsletter"}`);
   };
 
   return (
