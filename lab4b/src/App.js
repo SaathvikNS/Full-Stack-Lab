@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useRef } from 'react'
+import './App.css'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+   const nameRef = useRef(null);
+
+   const handleClick = (event) => {
+      event.preventDefault();
+      document.getElementById('namecontainer').innerHTML = "Hello " + nameRef.current.value + "!!"
+   };
+ 
+   return (
+     <div className="App">
+       <h1>Uncontrolled Component Example</h1>
+       <input
+         type="text"
+         placeholder="Enter your name"
+         ref={nameRef}
+       />
+       <button onClick={handleClick}>Display Name</button>
+       <div id='namecontainer'></div>
+     </div>
+   );
 }
 
-export default App;
+export default App
