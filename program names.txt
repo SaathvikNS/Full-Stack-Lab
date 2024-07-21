@@ -1,3 +1,11 @@
-3b. Develop a React-Js application to display five book details of a Library datasets and applay the styling using CSS modules
-4a. Develop a React-Js application utilizing Uncontroled Components to show how button, lables, checkboxes works woth form data
-4b. Develop a simple React-js application using Uncontrolled components to dispaly your name using 'Ref'feature..
+1.  Develop a React-js application to demonstrate basic functional and class components for the following datasets:
+        a. To display student informatino liek USN, Name, Course and Subjects opted.
+        b. To display employee information like Id, Name, Department, Experience, Salary and Age.
+2.  Develop a React-js application to demonstrate the following:
+        a. Working of Nested list using class components.
+        b. Working on joining list using functional components.
+        c. Working of keys with map iterator.
+3a. Create a React-js application to demonstrate the function of gmail login page. Apply styling using 'styled-components' for the same.
+3b. Develop a React-Js application to display five book details of a Library datasets and applay the styling using CSS modules.
+4a. Develop a React-Js application utilizing Uncontroled Components to show how button, lables, checkboxes works woth form data.
+4b. Develop a simple React-js application using Uncontrolled components to dispaly your name using 'Ref'feature.
