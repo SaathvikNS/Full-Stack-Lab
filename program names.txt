@@ -9,3 +9,5 @@
 3b. Develop a React-Js application to display five book details of a Library datasets and applay the styling using CSS modules.
 4a. Develop a React-Js application utilizing Uncontroled Components to show how button, lables, checkboxes works woth form data.
 4b. Develop a simple React-js application using Uncontrolled components to dispaly your name using 'Ref'feature.
+5a. Design a simple React-js application using Controlled components or 'States' to handle user input data.
+5b. Develop a React-js application using Controlled component to handle User Login page and applay the code to handle 'User event' as a JavaScript function for the same.
