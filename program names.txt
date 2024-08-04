@@ -11,3 +11,5 @@
 4b. Develop a simple React-js application using Uncontrolled components to dispaly your name using 'Ref'feature.
 5a. Design a simple React-js application using Controlled components or 'States' to handle user input data.
 5b. Develop a React-js application using Controlled component to handle User Login page and applay the code to handle 'User event' as a JavaScript function for the same.
+6a. Develop a React-js application to demonstrate the details of any four products of your choice using Properties in React.
+6b. Develop a React-JS application to demonstrate the basic Properties and also modify the same to validate ‘Props’ for ant three data types.

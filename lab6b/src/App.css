@@ -1,0 +1,16 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+table{
+  height: 200px;
+  width: 300px;
+}
+th{
+  padding: 10px 20px;
+}
+td{
+  padding: 10px 10px;
+}
